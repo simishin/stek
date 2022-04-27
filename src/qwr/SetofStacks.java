@@ -26,6 +26,7 @@ public class SetofStacks <E> {
 	LinkedList<E[]> ul = new LinkedList<E[]>();
 
 	public SetofStacks(int size) {
+		assert size>0: "~~~~~~~~~~~~~~";
 		this.size = size;
 		lastIndex=0;
 	}
